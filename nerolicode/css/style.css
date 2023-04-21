@@ -1,0 +1,1742 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&family=Ubuntu+Condensed&display=swap');
+
+
+@font-face{
+	font-family: 'Lemon Milk';
+	src: url("../fonts/LemonMilkbold.otf");
+	
+}
+
+
+
+
+
+body{
+	margin: 0rem;
+	padding: 0rem;
+	color:black;
+	background:none;
+	
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+section{
+	width: 100%;
+	margin: 0rem;
+}
+
+.container{
+	max-width: 1800px;
+	width: 90%;
+	padding: 0rem;
+	margin: 0rem auto;
+}
+
+
+
+nav a span{
+	margin: 0.5rem 0rem 0rem;
+	font-size: 1.2rem;
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	color: #de9376;
+}
+nav{
+	
+	margin: 0rem;
+	padding: 0rem;
+}
+
+nav a{
+	font-family: 'Sulphur Point', arial, helvetica;
+	font-size: 1rem;
+	 transition: all 0.3s;
+	letter-spacing: 0.04rem;
+	color: #de9376;
+}
+
+
+
+nav a:hover{
+	color: #FCC1C3;
+	background: none;
+}
+.whitebar{
+	z-index: 5;
+	background: white;
+	margin: 0rem;
+	padding: 1rem 0rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+
+
+.gridnav{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+
+
+nav ul{
+	margin:  0rem 0rem;
+	padding: 0rem;
+}
+
+li{ margin: 0.3rem 0rem 0rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	padding:0rem 1rem;
+	display: inline-block;
+
+}
+
+.icons{
+	width: 25px; 
+}
+
+.search{
+	
+	text-align: right;
+}
+
+.search ul{
+	margin: 0rem;
+	padding: 0rem;
+}
+
+
+
+
+
+
+.hero1{
+	background:url("../images/hero12.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 606px;
+	margin: 4rem auto 0rem;
+	padding: 4rem 0rem;
+}
+
+.hero1 p{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	font-size: 1.2rem;
+	width: 60%;
+	line-height: 1.6rem;
+	color: #FFDFE0;
+}
+
+.buttonhero{
+	width: 40%;
+	padding: 1rem 1rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+	background: none;
+	border-radius: 0px;
+	border: #FFDFE0 solid 2px;
+	cursor: pointer;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	font-weight: 900;
+	
+	
+}
+
+.buttonhero {
+	color: #FFDFE0;
+	transition: all 0.3s ease;
+}
+
+.buttonhero:hover{
+	color: #FFB78E;
+}
+
+
+.herointro{
+	width: 60%;
+}
+
+
+.herointro h1{
+
+	line-height: 5rem;
+	font-size: 5rem;
+	color: rgba(255,221,210,0.60);
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	margin-bottom: 1rem;
+}
+
+.grid1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+
+
+.gridbottles{
+	background: url("../images/bottles.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+	height: 500px;
+}
+
+.gridbottles p{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	color:#0F0F0F;
+	font-size: 1.2rem;
+	text-align: center;
+	 grid-row-start: 2;
+}
+
+.gridbottles a{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	color: #0F0F0F;
+	font-size: 1.2rem;
+	text-decoration: none;
+	
+}
+
+.gridbottles a:hover{
+	
+	padding: 0.5rem;
+	color: #585858;
+}
+
+
+.bottlesinfo{
+	
+	background: url("../images/orange.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+	width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+	
+}
+
+
+
+
+.bottlesinfo2 p{
+	letter-spacing: 0.08rem;
+	margin: 1rem auto;
+	line-height: inherit;
+	font-size: 2rem;
+	color: white;
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	margin-bottom: 1rem;
+}
+
+.grid2{
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.florida{
+	width: 90%;
+	background: url("../images/fsc.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.pic{
+	height: 130px;
+	width: 100%;
+	background:url("../images/neroilsea.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 6rem;
+}
+
+.pic2{
+	background: url("../images/neroliblood.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.pic3{
+	background: url("../images/nerolipurp.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.product1{
+	text-align: center;
+	line-height: 1.5rem;
+	background: white;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+}
+
+
+.product1 a{
+	margin: 0rem 0rem 1rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+}
+
+.product1 a:hover{
+	padding: 0.5rem;
+	color: #5E5E5E;
+}
+
+.green{
+	background: url("../images/him.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.greenproducts{
+	background: url("../images/hisp.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.nightcream{
+	height: 450px;
+	background: white;
+}
+
+.night{
+	width: 100%;
+	background: url("../images/ah.jpg");
+	height: 144px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 9rem;
+}
+
+.pictureofcream{
+	background: url("../images/bottlesnc.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	margin: 2rem 0rem;
+	
+}
+
+.afterhours{
+	background: none;
+	border: #7B55A4 solid 2px;
+	border-radius: 0px;
+	width: 40%;
+	margin: 1rem 0rem 0rem 1rem;
+	font-size: 1.4rem;
+	letter-spacing: 0.05rem;
+	cursor: pointer;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	font-weight: 900;
+	padding: 0.5rem 1rem;
+	color: #7B55A4 ;
+}
+
+.afterhours:hover{
+	
+	color: #121010;
+}
+
+
+.purple2{
+	background: url("../images/silk.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.purple_products{
+	background: url("../images/greenbottle.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.welcome{
+	width: 40%;
+	margin: 0rem auto;
+	height: 250px;
+	background: url("../images/weareneroli.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.welcometext{
+	    background: rgba(235,248,255,1.00);
+    width: 100%;
+ 
+    font-family: 'Sulphur Point', Arial, Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.welcometext p{
+	color:#6B9CCE;
+	width: 80%;
+	margin: 0.5rem auto;
+}
+
+.welcometext h1{
+	margin-top: 0rem;
+	width: 80%;
+	margin: 2.5rem auto 0rem;
+	color:#6B9CCE;
+	font-family: 'Lemon Milk', Arial, Helvetica;
+}
+
+.cause_b{
+	border: #6B9CCE solid 2px;
+	margin: 1rem 0rem;
+	display: block;
+	cursor: pointer;
+	background: none;
+	border-radius: 0px;
+	padding: 0.5rem 1rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	font-size: 1rem;
+	width: 50%;
+	transition: all 0.3s ease;
+	
+}
+
+.cause_b a{
+	width: 100%;
+	color: #6B9CCE;
+}
+
+.cause_b:hover{
+	background:rgba(106,107,178,0.20);
+}
+
+
+
+.clean{
+	background: url("../images/kfc2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.button2{
+	background: none;
+	border: white solid 2px;
+	cursor: pointer;
+	border-radius: 0px;
+	padding: 0.5rem 2rem;	
+	transition:  all 0.3s ease;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	font-size: 1.4rem;
+	color: white;
+}
+
+
+.button2:hover{
+	background: rgba(255,255,255,0.50);
+	color: rgba(33,33,33,1.00);
+}
+
+
+
+
+
+
+/**end of homepage*/
+
+/*begining of catelog*/
+
+.pages{
+	margin: 2rem 0rem 15rem;
+	height: 300px;
+}
+
+.options{
+	width: 100%;
+	background:#de9376;
+	margin-bottom: 0rem;
+}
+.options ul{
+	    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+}
+.options li{
+	display: inline-block;
+	text-align: center;
+	padding: 1rem 2rem;
+	
+}
+
+.options li + .options li{
+	margin-right: 1rem;
+}
+
+
+.options li a{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	font-size: 1.3rem;
+	color: rgba(255,255,255,1.00);
+	transition: all 0.3 ease;
+}
+
+.options li a:hover{
+	color: #330C4C;	
+}
+
+
+
+.hero2{
+	margin: 4rem auto 0rem;
+	height: 330px;
+	padding: 7rem 0rem 4rem;
+	background: url("../images/hero21.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.hero2 h1{
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	font-size: 5rem;
+	color: rgba(255,255,255,0.80);
+	margin: 0rem auto;
+	text-align: center;
+}
+.gridcatelog{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	margin: 1rem 0rem 4rem;
+	grid-gap: 40px;
+}
+
+.products{
+	border: solid rgba(246,198,162,1.00) 1px;
+	text-align: center;
+	padding: 2rem;
+	
+}
+
+.products p{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	color: rgba(45,45,45,1.00);
+}
+.side{
+	
+	
+	grid-row: span 1/2;
+	padding: 0rem;
+	
+	
+}
+
+
+
+
+
+.productsnero{
+	background: url("../images/neroliside2.jpg");
+	width: 60%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	grid-row: span 2/4;
+}
+
+.pricebox{
+	border: solid 1px #818181;
+	color: #212121;
+	background: #FFFFFF;
+	padding: 0.3rem;
+	width: 70%;
+	margin: 1rem auto 0rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+	
+}
+
+
+.quickadd{
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+	color: white;
+	background: #f9ad81;
+	padding: 0.3rem;
+	width: 70%;
+	margin: 0.2rem auto 1rem;
+	transition: all 0.3s ease;
+}
+
+.quickadd:hover{
+	background: #C38BF7;
+}
+
+
+
+.grid4{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+
+.searchbar{
+	 padding: 0rem;
+}
+.searchbar h2{
+	margin-top: 0rem;
+}
+
+
+
+.pic4{
+	background: url("../images/pic4.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 250px;
+	margin: 1rem 0rem 0rem;
+}
+
+
+.pic5{
+	background: url("../images/picleave.jpg");
+	height: 250px;
+	margin: 1rem 0rem 0rem;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+.pic6{
+	background: url("../images/pic6.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 250px;
+	margin: 1rem 0rem 0rem;
+}
+
+
+.pic7{
+	background: url("../images/pic7.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 250px;
+	margin: 1rem 0rem 0rem;
+}
+
+.pic8{
+	height: 250px;
+	background: url("../images/pic8.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 1rem 0rem 0rem;
+}
+
+.pic9{
+	height: 250px;
+	background: url("../images/pic9.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 1rem 0rem 0rem;
+}
+
+
+.hearts{
+	background: url("../images/hearts.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: none;
+}
+
+
+.hearts:hover{
+	background: url("../images/hearts.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**end of catelog*/
+/*begining of productdetail*/
+
+
+.goback{
+	width: 100%;
+	background: #FFFFFF;
+	height: 170px;	
+}
+
+.goback2{
+	margin: 7rem 0rem 0rem;
+}
+.goback2 a{
+	color: #646464;
+	text-decoration: none;
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+}
+
+.goback2 a:hover{
+	color: #FF8B86;
+	background: none;
+}
+
+
+.gridproduct{
+	width: 80%;
+	margin: 0rem auto 6rem;
+
+}
+
+
+.prouctdetail{
+	width: 100%;
+	padding: 0rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+	color: rgba(29,29,29,1.00);
+}
+.prouctdetail h1{
+	color: rgba(45,45,45,1.00);
+	margin: 2rem 0rem 0.5rem;
+}
+
+
+.prouctdetail p{
+	margin-bottom: 2rem;
+	line-height: 1.3rem;
+}
+
+.prouctdetail span{
+	font-size: 0.7rem;
+	
+}
+
+
+.gridinfo{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	margin-bottom: 1.5rem;
+	color: white;
+	
+}
+
+.box1{
+	padding: 0.5rem;
+	background:  rgba(241,139,76,0.50);
+	text-align: center;
+}
+
+
+.box2{
+	padding: 0.5rem;
+	background: #ADB4E6;
+	text-align: center;
+}
+
+.box3{
+	padding: 0.5rem;
+	background: #F49AD9;
+	text-align: center;
+}
+
+.gridinf2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.gridinf2{
+	background: white;
+	
+}
+
+.box4{
+	padding: 0.5rem;
+	border: solid #ACACAC 1px;
+}
+
+.box5{
+		padding: 0.5rem;
+	border: solid #ACACAC 1px;
+}
+
+.box6{
+		padding: 0.5rem;
+	border: solid #ACACAC 1px;
+}
+
+.product_b{
+	text-align: center;
+	padding: 1rem 0rem;
+	font-size: 1.4rem;
+	width: 100%;
+	background: none;
+	border: rgba(241,139,76,1.00) solid 2px;
+	color: rgba(241,139,76,1.00);
+}
+
+.product_b:hover{
+	background: rgba(255,208,208,1.00);
+	color: white;
+}
+
+
+ a{
+	 transition: all 0.3s;
+	width: 100%;
+	text-decoration: none;
+	color: #151515;
+	
+	
+}
+
+ a:hover{
+	color: white;
+}
+a:hover{	color: #575757;
+	background: none;
+	
+}
+
+.leftad{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: #febd94;
+	height: 300px;
+	padding: 5rem 0rem;
+	margin-bottom: 1rem;
+}
+
+.leftad p{
+	margin: 0rem 0rem 0.5rem;
+	font-size: 2.3rem;
+	color: #ef7646;
+	font-family: 'Lemon Milk', Arial, Helvetica;
+}
+
+.leftad span{
+	color: white;
+}
+
+.rightad{padding: 5rem 0rem 0rem;
+	margin-bottom: 10rem;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background: url("../images/orangecream.jpg");
+}
+
+
+
+.prouctimg{
+	background: url("../images/nerolicream.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 350px;
+	margin-top: 3rem;
+	
+}
+
+/**start of cart**/
+
+.cartinfo a{
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	color: #383838;
+	transition: all 0.3s ease;
+	
+}
+
+.remove a:hover{
+	color: rgba(225,114,77,1.00);
+}
+
+.productname{
+	margin: 1rem 0rem 0rem;
+}
+
+.quanity select{
+	width: 40px;
+}
+
+.gb_cart{
+	margin: 2rem;
+}
+.price{
+	margin-top: 0.5rem;
+}
+.final_checkout{
+	margin-top: 1rem;
+	text-align:center;
+	width: 70%;
+	border: solid 2px #f7a0ac;
+	padding: 0.5rem 2rem;
+	transition: all 0.3s ease;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	color: #f7a0ac;
+	font-size: 1rem;
+}
+
+
+.final_checkout:hover{
+	background: #f7a0ac;
+	color: white;
+	
+}
+.hero3{
+	width: 100%;
+	background: url("../images/neroh4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	
+}
+
+
+.container2{
+	width: 70%;
+	margin: 0rem auto;
+}
+
+
+.yourcart{
+	background: url("../images/yourcart.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 58px;
+	text-align: left;
+}
+
+
+.itemsincart{
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+}
+.griditems{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.final_checkout2{
+	width: 100%;
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.2rem;
+	border: solid 2px #f7a0ac;
+	padding: 0.5rem 1rem;
+	transition: all 0.3s ease;
+	color: #f7a0ac;
+}
+
+.final_checkout2{
+	color:#5A5A5A;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+}
+
+.final_checkout2:hover{
+	background: #f7a0ac;
+	color: white;
+}
+
+
+.gridcart{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	color: #696969;
+	display: grid;
+	grid-template-columns: 3fr  1fr 1fr 1fr;
+	margin-top: 3rem;
+}
+
+.cartbar{
+	width: 100%;
+	border: solid 1px #a186be;
+	
+}
+
+
+
+.cartinfo{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	margin: 2rem 0rem 3rem;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+}
+
+.order{
+	width: 50%;
+	margin: 2rem auto 5rem;
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+}
+
+.order p{
+	margin-bottom: 0rem;
+}
+.quanity{
+	border: none;
+}
+
+.order li{
+	display: inherit;
+	padding: 0rem 0rem 1rem;
+}
+
+
+/*start of checkout page*/
+.container2 h2{
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	margin-bottom: 1rem;
+	color: #404040;
+}
+.gridprocess p{
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+}
+
+.hero4{
+	background: url("../images/hero44.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+	height: 230px;
+	
+}
+
+
+.shipping h1{
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	color: #4D4D4D;
+}
+
+.shipping p{
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+}
+
+.processimg{
+	margin-top: 5rem;
+	width: 100%;
+	background: url("../images/process.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 27px;
+}
+
+.gridprocess{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.shipping{
+	margin: 4rem auto 5rem;
+}
+
+
+
+
+form{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 50% 50%;
+	grid-gap: 2rem;
+	padding: 0rem;
+	margin: 0rem auto;
+}
+
+form select{
+	width: 100%;
+	border: solid 2px #f49e7c;
+	border-radius: 0px;
+}
+input{
+
+	padding: 0.5rem 0.7rem;
+	font-size: 0.9rem;
+	background: none;
+	border: solid 2px #f49e7c;
+	border-radius: 0px;
+	font-family: 'Ubuntu Condensed', arial, helvetica;
+	cursor: pointer;
+}
+
+input[type="text"]::placeholder{
+	
+	color:#959595;
+}
+ select{
+	 width: 15px;
+	background:none;
+	border: none;;
+	border-radius: 0px;
+	
+}
+
+text{
+	color: white;
+}
+
+option{
+	font-family: 'DM Serif Text', serif;
+}
+
+
+
+.check{
+	margin: 2rem 0rem 4rem
+}
+
+.checkone {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkone input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkone:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkone input:checked ~ .checkmark {
+  background-color: #FFB785;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkone input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkone .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+/**radio**/
+
+.radio{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+.radio label {
+  display: inline-block;
+ font-family: Arial, Helvetica;
+  padding: 1rem;
+  border: solid 2px #a186be;
+color:#a186be;
+  transition: all 0.3s;
+}
+
+.radio input[type="radio"] {
+  display: none;
+}
+
+.radio input[type="radio"]:checked + label {
+  background: #a186be;
+	color: white;
+}
+
+.radio input[type="radio"]:hover + label {
+  background:rgba(161,134,190,0.50);
+	color: white;
+}
+
+.final_checkout3{
+	background: white;
+	width: 40%;
+	margin: 3rem auto 13rem;
+	text-align: center;
+	font-size: 1.3rem;
+	border: solid 2px #f7a0ac;
+	padding: 0.5rem 2rem;
+	border-radius: 0px;
+	transition: all 0.3s ease;
+}
+
+
+.final_checkout3:hover{
+	background: #f7a0ac;
+	color: 	white;
+	
+}
+
+
+/*endof checkout*/ 
+/*start of account*/
+.accounthero{
+	background: url("../images/hero44.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.myaccount{
+	background: url("../images/ma.jpg");
+	width: 70%;
+	height: 41px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 0rem;
+	margin: 0rem;
+}
+.grid_account{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 50px;
+	
+}
+
+.left_account h1{
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+	color: #505050;
+}
+
+.grid_account h2{
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+	color: #505050;
+}
+
+.left_account li{
+	display: inherit;
+	color: #505050;
+	padding-left: 0rem;
+}
+
+.left_account ul{
+	display: inherit;
+	padding-left: 0rem
+}
+
+.logout{
+	text-align: right;
+}
+.button4{
+	
+	margin-top: 0rem;
+	text-align: center;
+	font-size: 0.7rem;
+	border: solid 2px #f7a0ac;
+	padding: 0.3rem;
+	transition: all 0.3s ease;
+}
+
+
+.button4:hover{
+	background: #f7a0ac;
+	color: white;
+}
+
+.right_account p{
+	color: #FF8688;
+}
+
+.right_account{
+	color: #505050;
+	font-family: 'Sulphur Point', Arial, Helvetica;	
+}
+
+
+.herolast{
+	width: 100%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background:rgba(124,29,30,1.00);
+	height: 100px;
+	margin: 4rem 0rem 5rem;
+}
+
+
+
+
+
+
+
+.options select{
+	display: none;
+}
+
+.bars{
+	display: none;
+	
+}
+
+
+.bars1{
+	display: none;
+}
+
+.goback3 {
+	text-align: right;
+	font-family: 'Sulphur Point', Arial, Helvetica;
+}
+
+.goback3 a:hover{
+	color: rgba(255,125,128,1.00);
+}
+
+footer{
+	width: 100%;
+	background:#F3F3F3;
+	color: #FF8BA1;
+	padding: 5rem 0rem 3rem;
+	
+	margin:0rem auto;
+	
+	font-family: 'Sulphur Point', Arial, Helvetica;
+	
+}
+
+.home_footer a{
+	font-size: 2rem;
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	color: #de9376;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 0rem 0rem 4rem;
+}
+
+.grid4{
+	width: 80%;
+	margin: 0rem auto
+}
+
+footer input{
+	margin-bottom: 1rem;
+	border: #FF8BA1 solid 2px;
+		color: rgba(60,60,60,1.00);
+}
+
+footer h2{
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	color: #FF8BA1;
+	margin: 0rem auto;
+}
+footer ul{
+	padding: 0rem;
+}
+
+
+footer ul li{
+	
+display: inherit;
+	color: #FF8BA1;
+padding: 0rem 2rem 0.5rem 0rem;
+}
+
+.buttonfoot{
+	height: 36px;
+	color: #FF8BA1;
+	font-family: 'Lemon Milk', Arial, Helvetica;
+	background: none;
+	cursor: pointer;
+	border-radius: 0px;
+	border:solid 2px #FF8BA1;
+}
+
+@media only screen and (max-width: 2000px) {
+	
+	
+}
+
+@media only screen and (max-width: 1200px) {
+	.prouctdetail{
+		width: 100%;
+	}
+  .herointro h1{
+	margin-top: 7rem;
+	line-height: inherit;
+	font-size: 3rem;
+	
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+	.gridcatelog{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
+
+}
+ 
+
+@media only screen and (max-width: 900px) {
+	.products{
+		padding: 0rem;
+	}
+	.options ul{
+		display: none;
+		
+	}
+	
+	.options{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 1rem 0rem;
+	}
+	
+	.options select{
+	display: inherit;
+	width: 90%;
+	margin: 0rem auto;
+	border: solid 1px white;
+	height: 40px;
+	border-radius: 0px;
+	 	
+	
+}
+	
+	.bars1{
+		display: block;
+	}
+	
+	.bars{
+		width: 50px;
+		margin-bottom: 0.5rem;
+		 display: inherit;
+		border-bottom: solid rgba(62,62,62,1.00); 2px;
+		
+		
+	}
+	
+	nav{
+		display: none;
+		
+	}
+	
+	.gridnav{
+		margin-top: 0.5rem;
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		
+	}
+	
+	.searchbar{
+		text-align: center;
+		grid-column: span 4/5;
+		margin-bottom: 1rem;
+	}
+	
+	.grid4{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	
+.myaccount{
+	width: 90%;
+	margin: 0rem auto;
+	}
+	.grid_account{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.left_account li{
+	display: inline-block;
+	padding-left: 0rem;
+}
+
+	.final_checkout3{
+	background: white;
+		margin-top: 4rem;
+		width: 100%;}
+	.rightad{
+		display: none;}
+	
+	.purple_products{
+		display: none;
+	}
+	.grid1{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	.welcome{
+		width: 70%;
+	}
+	
+	
+  .herointro{
+	width: 100%;
+	  margin: 7rem auto 0rem;
+	text-align: center;
+}
+	
+	 .buttonhero {
+		width: 80%;
+		  margin: 1rem auto;
+	}
+	
+	.herointro p{
+		display: none;
+	}
+	
+	.side{
+		display: none;
+		
+	}
+	
+	.productsnero{
+		display: none;
+	}
+	
+	.hero2 h1{
+		font-size: 3rem;
+		margin-top: 4rem;
+	}
+	
+	
+	.options ul li{
+		font-size: 1rem;
+		padding: 0.5rem;
+	}
+	
+	.products{
+		padding: 1rem;
+	}
+	
+	.pages{
+		background: url("../images/nerolihorizontal.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 80%;
+		margin: 0rem auto;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	
+	.products{
+		padding: 0rem;
+		border: none;
+	}
+	.grid2{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	.florida{
+		height: 100px;
+		margin-top: 2rem;
+	}
+	
+	.afterhours{
+		width: 90%;
+	}
+	.welcometext p{
+		width: 90%;
+	}
+	
+	.pro
+	.cause_b{
+		width: 90%;
+	}
+	
+	.grid_account{
+		width: 90%;
+		margin: 0rem auto;
+	}
+	.prouctimg{
+		width: 70%;
+		margin: 0rem auto;
+	}
+	
+	.prouctdetail{
+		width: 100%;
+		padding: 0rem;
+		margin: 0rem auto;
+	}
+	
+	.gridinfo{
+		display: grid;
+		grid-template-columns: 1fr;
+		
+	}
+	.griditems{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.final_checkout{
+		width: 100%;
+	}
+	.grid4{
+		width: 100%;
+		margin: 0rem auto;
+		display: inherit;
+	}
+	.gridcart h3{
+		display: none;
+	}
+	
+	.searchbar {
+		width: 100%;
+		margin: 0rem auto;
+		text-align:center;
+	}
+	.quanity{
+		display: none;
+	}
+	.cartinfo{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+	
+	.gridcatelog{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	.hero2 h1{
+		 
+		font-size: 2rem;
+		margin-top: 4rem;
+	}
+	.footinfo{
+		display: none;
+	}
+	
+	.radio{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	form{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	.order{
+		width: 90%;
+		margin: 0rem auto 2rem;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 500px){
+	.footinfo{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

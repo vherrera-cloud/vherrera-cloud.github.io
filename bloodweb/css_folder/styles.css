@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "Avenir";
+	src: url("../fonts/Avenir.ttc");
+}
+
+
+@font-face{
+	font-family: "Code Bold";
+	src: url("../fonts/CODE Bold.otf");
+}
+body{
+	margin: 0rem;
+	padding: 0px 0px;
+	
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+a:hover{
+	opacity: 70%;
+	background: rgba(255,255,255,0.30)
+}
+
+.container{
+	max-width: 2000px;
+	width: 85%;
+	padding: 0rem;
+	margin: 0rem auto;
+	border: solid rgba(255,255,255,0.00) 1px;
+}
+
+.header, span, h1, h2{
+	display: inline-block;
+}
+.backgroud1{
+	background: #235CDB;
+}
+
+.backgroud2{
+	background: #2246C6;
+}
+
+.backgroud3{
+	background: #2031AF;
+}
+.grid1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.grid1, svg{
+	margin: 0px auto 0px;
+	width: 90%;
+}
+ .text_container{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-row: 2/3;
+	
+}
+.grid2{
+	position:relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.second_svg{
+	position: absolute;
+	width: 30%;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
